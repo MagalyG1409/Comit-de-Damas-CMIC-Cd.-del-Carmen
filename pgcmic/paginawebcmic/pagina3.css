@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    height: 70px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(255,6,6,1) 100%);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo-nombre{
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 13px;
+
+}
+
+nav a{
+    margin-right: 5px;
+    padding: 15px;
+}
+
+nav a:hover{
+    color: #000;
+    background-color:#ffffff;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+}
+
+
+
+.eventos{
+ color: #000;   
+ font-family:'Rubik Moonrocks', cursiva;
+ font-size: 50px;
+ justify-content:center;
+ text-align:center;
+ margin-left: 100px;
+ margin-top: 20px;
+}
+cmic2{
+    color:#7a0606;
+    font-size: 20px;
+}
+.padre2{
+
+    justify-content: center;
+    text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.hijo p.cmic2{
+    text-align: justify;
+    font-style: italic;
+    margin-top: 30px;
+
+ color: #000;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:20px;
+ font-weight: 500;
+
+
+}
+
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.galeria__img{
+    width: 350px;
+    height: 350px;
+    margin-bottom:30px ;
+    object-fit: cover;
+    
+}
+
+.padre3{
+
+    justify-content: center;
+    text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.hijo p.cmic3{
+    text-align: justify;
+    font-style: italic;
+    margin-top: 30px;
+
+ color: #000;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:20px;
+ font-weight: 500;
+
+
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.galeria{
+    width: 350px;
+    height: 350px;
+    margin-bottom:30px ;
+    object-fit: cover;
+    
+}
+.padre4{
+
+    justify-content: center;
+    text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.hijo p.cmic4{
+    text-align: justify;
+    font-style: italic;
+    margin-top: 30px;
+
+ color: #000;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:20px;
+ font-weight: 500;
+
+
+}
+
+.contenedor2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.galeria2{
+    width: 300px;
+    height: 300px;
+    margin-bottom:30px ;
+    object-fit: cover;
+    
+}
+
+.padre5{
+
+    justify-content: center;
+    text-align: center;
+margin-left: 50px;
+margin-top: 30px;
+}
+
+.hijo p.cmic5{
+    text-align: justify;
+    font-style: italic;
+    margin-top: 30px;
+
+ color: #000;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:20px;
+ font-weight: 500;
+
+
+}
+
+.contenedor3{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.galeria3{
+    width: 300px;
+    height: 300px;
+    margin-bottom:50px ;
+    object-fit: cover;
+    
+}
+
+.padre6{
+
+    justify-content: center;
+    text-align: center;
+margin-left: 50px;
+margin-top: 30px;
+}
+
+.hijo p.cmic6{
+    text-align: justify;
+    font-style: italic;
+    margin-top: 30px;
+
+ color: #000;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:20px;
+ font-weight: 500;
+
+
+}
+
+.contenedor4{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.galeria4{
+    width: 600px;
+    height: 400px;
+    margin-bottom:50px ;
+    object-fit: cover;
+    
+}
